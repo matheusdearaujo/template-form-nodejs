@@ -1,11 +1,11 @@
-@-webkit-keyframes balance { 
+@-webkit-keyframes balance {
     from { top: 60px; }
     to { top: 65px; }
 }
 
-@keyframes balance { 
+@keyframes balance {
     from { top: 60px; }
-    to { top: 65px; } 
+    to { top: 65px; }
 }
 
 @media (max-width: 1100px) {
@@ -41,7 +41,7 @@
         margin-top: .4rem;
     }
 
-    .content footer .content-footer .resume { 
+    .content footer .content-footer .resume {
         max-width: 50%;
         align-items: center;
         text-align: center;
@@ -73,7 +73,7 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-    
+
     .content main .third-section .content-third-section .apps .card-apps {
         background-color: none;
         display: flex;
@@ -87,7 +87,7 @@
         margin-bottom: 2rem;
         cursor: default;
     }
-    
+
     .content main .third-section .content-third-section .apps .card-apps img{
         width: 100%;
         height: 100%;
@@ -125,16 +125,16 @@
     .content nav .nav-menu-mobile .nav-list-mobile .nav-item-mobile {
         margin: 1rem 0;
     }
-    
+
     .content nav .nav-menu-mobile .nav-list-mobile .nav-item-mobile .nav-link-mobile {
         font-size: 1.8rem;
         color: #333333;
         font-weight: bold;
         transition: 1s;
     }
-    
+
     .content nav .nav-menu-mobile .nav-list-mobile .nav-item-mobile .nav-link-mobile:hover {
-        color: #6c63ff !important;
+        color: #1b1b1b !important;
     }
 
     .toggle {
@@ -156,7 +156,7 @@
         width: 100%;
     }
 
-    .content footer .content-footer .resume { 
+    .content footer .content-footer .resume {
         max-width: 100%;
     }
 }
@@ -165,7 +165,7 @@
     .content nav .logo img{
         width: 60px;
     }
-    
+
     .content nav .logo h1{
         font-size: 2.4rem;
         color: #333333;

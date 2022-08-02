@@ -24,12 +24,12 @@ ul, li, a {
 
 /* Firefox 18- */
 :-moz-placeholder { font-size: 0.8rem; }
- 
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;    
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
-input[type=number] { 
+input[type=number] {
    -moz-appearance: textfield;
    appearance: textfield;
 }
@@ -37,11 +37,11 @@ input[type=number] {
 body::-webkit-scrollbar {
     width: 0.40rem;
   }
-  
+
   body::-webkit-scrollbar-track {
     background: #fff;
   }
-  
+
   body::-webkit-scrollbar-thumb {
-    background: #6c63ff;
+    background: #333333;
   }

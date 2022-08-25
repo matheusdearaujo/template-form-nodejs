@@ -25,15 +25,6 @@
 }
 
 .content nav .logo {
-    display: flex;
-    align-items: center;
-}
-
-.content nav .logo img{
-    width: 80px;
-}
-
-.content nav .logo h1{
     font-size: 3rem;
     color: #333333;
     font-weight: 900;
@@ -51,7 +42,7 @@
     font-size: 1.2rem;
     color: #333333;
     font-weight: 900;
-    transition: 1s;
+    transition: .2s;
 }
 
 .content nav .nav-menu .nav-list .nav-item .nav-link:hover {
@@ -114,14 +105,16 @@
 .content main .first-section .title-first-section h1 {
     font-size: 2rem;
     font-weight: 800;
+    color: #333333;
 }
 
-.content main .first-section .title-first-section h1 span{
-    color: #333333;
+.content main .first-section .title-first-section h1 span {
+    color: #1b1b1b;
 }
 
 .content main .first-section .title-first-section h4 {
     font-weight: 600;
+    color: #333333;
 }
 
 /* MAIN - Second Section */
@@ -187,6 +180,7 @@
 .content main .second-section .cards-second-section .card:hover {
     top: 0.25em;
     box-shadow: none;
+    transition: 1s;
 }
 
 .content main .second-section .cards-second-section .card .card-title {
@@ -208,6 +202,18 @@
     font-weight: 600;
 }
 
+.content main .second-section .cards-second-section .card .card-text p.pos {
+    display: none;
+}
+
+.content main .second-section .cards-second-section .card:hover p.pre {
+    display: none;
+}
+
+.content main .second-section .cards-second-section .card:hover p.pos {
+    display: initial;
+}
+
 /* MAIN - Third Section */
 .content main .third-section {
     background-color: #FFF;
@@ -216,7 +222,7 @@
 }
 
 .custom-shape-divider.third {
-    top: -150px;
+    top: -145px;
 }
 
 .custom-shape-divider.third svg {
@@ -243,7 +249,7 @@
     margin-top: 2rem;
 }
 
-.content main .third-section .content-third-section img{
+.content main .third-section .content-third-section img {
     width: 700px;
 }
 
@@ -291,6 +297,7 @@
     z-index: 1;
     background-image: linear-gradient(to bottom, #333333, #1b1b1b);
     color: #fff;
+    text-align: center;
     padding: 10px 18px;
     font-size: 20px;
     font-weight: 500;
@@ -347,8 +354,6 @@
 }
 
 .content footer .content-footer .resume .footer-logo {
-    display: flex;
-    align-items: center;
     margin-bottom: 2rem;
 }
 
@@ -461,6 +466,11 @@
     padding: 1rem 2rem;
     color: #fff;
 }
+
+.content .copyright a {
+    color: #fff;
+}
+
 
 .content .copyright p span {
     color: rgba(255, 255, 255, 0.459);

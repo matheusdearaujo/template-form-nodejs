@@ -46,6 +46,26 @@ body::-webkit-scrollbar-thumb {
     background: #333333;
 }
 
+.custom-shape-divider {
+    position: absolute;
+    top: -120px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider .shape-fill {
+    fill: #333333;
+}
+
 .colored-toast.swal2-icon-success {
     background-color: #a5dc86 !important;
 }

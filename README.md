@@ -11,7 +11,7 @@ Website template with form submission to email using nodemailer.
 1.  Clone this repository
 
 ```sh
-git clone https://github.com/matheusdearaujo/template-site-nodejs.git
+git clone https://github.com/matheusdearaujo/template-form-nodejs.git
 ```
 
 2.  Change directory

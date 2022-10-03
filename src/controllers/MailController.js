@@ -1,12 +1,15 @@
-import { mail, user } from "../config/mail.js";
+import { environments, mail } from "../config/index.js";
 
 export const sendMail = (req, res) => {
+	const { user } = environments;
+	const { email, name, subject, message } = req.body;
+
 	const mailOptions = {
-		from: req.body.email,
+		from: email,
 		to: user,
-		subject: `Mensagem de ${req.body.name}: ${req.body.subject}`,
-		html: `<p>${req.body.message}</p>`,
-		replyTo: req.body.email,
+		subject: `Mensagem de ${name}: ${subject}`,
+		html: `<p>${message}</p>`,
+		replyTo: email,
 	};
 
 	mail.sendMail(mailOptions, error => {
